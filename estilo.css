@@ -1,33 +1,71 @@
+body {
+	background-image: url("wallpaper.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover; 
+}
 * {
     margin: 0;
     padding: 0;
 }
-body {
+body{
     font-family: verdana;
-    font-size: 12px;
 }
-h1 {
-    color: #bb0022;
-    font-size: 24px;
-    text-align: center;
-    padding-top: 20px;
+h1{
+	color: #69152D;
+    font-size: 18px;
+    text-transform: uppercase;
 }
-#topo {
-    background-color: #eee;
+h2{
+    color: #69152D;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 15px 0 0;
+}
+p{
+    font-size: 14px;
+    margin: 5px 0;
+}
+#topo{
+    background-color: #EEE;
     width: 980px;
     height: 80px;
 }
-#topo p {
-    text-align: center;
+#foto{
+	margin: 15px 25px 0px 35px;
+    height: 110px;
+    width: 110px;
+    float: left;
+}
+#topo{
+	width: 978px;
+	height: 150px;
+	background-color: #000000;
+    border: 1px solid #000000;
+}
+#logo{
+	width: 350px;
+	height: 58px;
+    margin-top: 20px;
+}
+.slogan {
     font-style: italic;
-    font-size: 18px;
+    font-size: 20px;
+    padding-left: 150px;
+    text-align: left;
+    font-weight: 600;
+    color: #777;
 }
-#menu {
-    background-color: #777;
-    width: 980px;
-    height: 30px;
+#menu{
+    background: #000000;
+	width: 980px;
+	height: 45px;
 }
-#menu ul {
+#menu ul{
     text-transform: uppercase;
     list-style-type: none;
 }
@@ -35,48 +73,70 @@ h1 {
     float: left;
 }
 #menu ul li a{
-    font-size: 18px;
-    width: 196px;
-    display: block;
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
+	font-size: 18px;
+	width: 190px;
+	display: block;
+	text-align: center;
+	color: rgb(83, 83, 83);
+	text-decoration: none;
+	padding: 10px 3px;
 }
-#menu ul li a:hover{
-    color: #777;
-    background-color: #fff;
+#menu ul li a:hover{	
+	color: #14006e;
+	font-size: 20px;
+	background: #FFF;
 }
 #destaques{
-    background-color: #555;
-    width: 980px;
-    height: 320px;
-    padding-top: 5px;
+    background: #FFF;
+    border: 1px solid #000000;
+    width: 978px;
+    height: 330px;
 }
-.foto{
-    padding: 5px;
-    border: 2px solid #fff;
+.cols {
+    width: 319px;
+    padding: 30px 3px 30px 3px;
+    float: left;
+    text-align: center;
+}
+#destaques h4{
+    text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	color: #14006e;
+}
+#conteudo {
+    width: 912px;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    background: #fff;
+    padding: 30px 32px;
 }
 #bio{
-    background-color: #fff;
-    width: 980px;
-    height: 140px;
+	background: #000000;
+	border: 1px solid #000000;
+	width: 978px;
+    padding: 25px 0;
 }
 #bio p{
-    text-align: center;
-    font-size: 16px;
-    padding: 15px;
+    font-family: Georgia, 'Times New Roman';
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	padding: 5px 40px;	
+	color: #ffffff;
 }
 #rodape{
-    background-color: #777;
-    width: 980px;
-    height: 40px;
+	font-size: 14px;
+	width: 980px;
+	padding: 15px 0 20px; 
+	background: #000000;
+	text-align: center;
 }
 #rodape p{
-    text-align: center;
-    padding-top: 10px;
+	color: #FFF;
 }
 #tudo{
-    border: 1px solid #555;
     width: 980px;
-    margin: auto;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto; 
 }
